@@ -13,7 +13,7 @@ const TodoRoutes = require("./Routes/TodoRoutes");
 const NoteRoutes = require("./Routes/NoteRoutes");
 const TaskRoutes = require("./Routes/TaskRoutes");
 
-const PORT = 8080;
+const PORT = 5000;
 
 const app = express();
 app.use([
