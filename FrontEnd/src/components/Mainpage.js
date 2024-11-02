@@ -42,7 +42,7 @@ export default function Mainpage({ toast, signIn, user }) {
       return;
     }
     axios
-      .post(`${process.env.REACT_APP_API_URL}/login`, userLogin)
+      .post("https://taskmate-backend-fqtb.onrender.com/login", userLogin)
       .then((result) => {
         console.log(result);
         if (result.data.success) {
@@ -63,7 +63,7 @@ export default function Mainpage({ toast, signIn, user }) {
   const handleRegister = (e) => {
     e.preventDefault();
     axios
-      .post(`${process.env.REACT_APP_API_URL}/register`, users)
+      .post("https://taskmate-backend-fqtb.onrender.com/register", users)
       .then((result) => {
         console.log(result);
         if (result.data !== "Already Registerd") {
