@@ -1,5 +1,5 @@
 # TaskMate
 
-TaskMate is a comprehensive task management application designed to help users organize, prioritize, and collaborate on tasks efficiently. Whether you're managing personal projects or working as part of a team, TaskMate provides a user-friendly interface and powerful tools to keep your tasks organized and on track. 
+"Movie Hub" is a platform that allows users to explore and discover movies, providing detailed information, ratings, and reviews. It offers an engaging interface for users to browse, search, and stay updated on the latest films.
 
 ## Live @ https://taskmate-9kha.onrender.com
